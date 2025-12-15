@@ -1,0 +1,31 @@
+{
+  "name": "nepali-datepicker",
+  "version": "1.0.0",
+  "description": "A Nepali (Bikram Sambat) date picker component for React.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "vite",
+    "build": "babel src --out-dir dist --copy-files",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "react",
+    "datepicker",
+    "nepali",
+    "bikram-sambat"
+  ],
+  "author": "Kirtan Kunwar",
+  "license": "MIT",
+  "peerDependencies": {
+    "@mui/material": "^5.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.3",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "vite": "^4.0.0"
+  }
+}
