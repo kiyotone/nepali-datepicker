@@ -1,21 +1,45 @@
 {
-  "name": "nepali-datepicker",
-  "version": "2.0.0",
-  "description": "A Nepali (Bikram Sambat) date picker component for React.",
-  "main": "src/index.js",
+  "name": "react-mui-nepali-datepicker",
+  "version": "1.0.0",
+  "description": "React Nepali (Bikram Sambat) DatePicker Component with Material-UI (MUI)",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "start": "vite",
     "build": "babel src --out-dir dist --copy-files",
+    "prepublishOnly": "npm run build",
     "test": "echo \"No tests yet\" && exit 0"
   },
   "keywords": [
     "react",
+    "mui",
+    "material-ui",
     "datepicker",
     "nepali",
-    "bikram-sambat"
+    "bikram-sambat",
+    "calendar",
+    "nepal",
+    "bs-date",
+    "nepali-calendar",
+    "react-datepicker",
+    "nepali-date",
+    "bs-calendar"
   ],
   "author": "Kirtan Kunwar",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kirtankunwar/react-mui-nepali-datepicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kirtankunwar/react-mui-nepali-datepicker/issues"
+  },
+  "homepage": "https://github.com/kirtankunwar/react-mui-nepali-datepicker#readme",
   "peerDependencies": {
     "@mui/material": "^5.0.0",
     "react": "^18.0.0",
